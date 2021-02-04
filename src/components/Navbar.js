@@ -7,7 +7,7 @@ export default function Navbar() {
     <nav className='navbar navbar-expand-lg navbar-light bg-light'>
       <div className='container-fluid'>
         <div className='navbar-brand' href='#'>
-          <Link to='/'>Accueil</Link>
+          <Link to='/'>Château de la Wilderie</Link>
         </div>
         <button
           className='navbar-toggler'

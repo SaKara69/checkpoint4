@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <div>
       <Testimonials />
-      <h2>Page Contact</h2>
+      <h2>Contactez-nous</h2>
     </div>
   );
 }
