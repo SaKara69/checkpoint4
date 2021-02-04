@@ -1,3 +1,35 @@
 .navbar {
   background-color: white;
 }
+
+.links {
+  justify-content: center;
+}
+
+.navLinkTitle {
+  color: black;
+  text-decoration: none;
+  font-size: 1.9rem;
+  text-shadow: 1px 1px 1px gray;
+  font-family: 'Great Vibes', cursive;
+}
+.navLinkTitle:visited {
+  color: black;
+}
+.navLinkTitle:hover {
+  color: blue;
+}
+
+.navLink {
+  color: black;
+  text-decoration: none;
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 1px gray;
+  margin: 0 15px;
+}
+.navLink:hover {
+  color: red;
+}
+.navLink:visited {
+  color: black;
+}

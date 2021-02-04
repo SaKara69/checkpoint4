@@ -4,9 +4,16 @@
   align-items: center;
   flex-direction: column;
 }
-
+.titleLine {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 100px auto;
+  padding: 15px;
+}
 .title {
   font-family: 'Great Vibes', cursive;
-  font-size: 150px;
-  margin: 100px auto;
+  font-size: 9rem;
+  margin-right: 30px;
 }

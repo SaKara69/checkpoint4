@@ -4,11 +4,25 @@ import '../styles/Footer.css';
 const Footer = () => {
   return (
     <footer className='footer'>
-      <div className='links'>
-        <Link to='/Evenements'>Evénements</Link>
-        <Link to='/Contact'>Contactez-nous</Link>
-        <a href='https://github.com/SaKara69/checkpoint4'>Dépôt GitHub</a>
-        <a href='https://www.wildcodeschool.com/fr-FR/campus/lyon'>
+      <div className='titleLinks'>
+        <Link to='/Evenements' className='links'>
+          Evénements
+        </Link>
+        <Link to='/Contact' className='links'>
+          Contact
+        </Link>
+        <a
+          href='https://github.com/SaKara69/checkpoint4'
+          className='links'
+          target='blank'
+        >
+          Dépôt GitHub
+        </a>
+        <a
+          href='https://www.wildcodeschool.com/fr-FR/campus/lyon'
+          className='links'
+          target='blank'
+        >
           Recrutement
         </a>
       </div>
