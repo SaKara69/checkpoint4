@@ -7,7 +7,7 @@ export default function Castle() {
   return (
     <div
       id='carouselExampleCaptions'
-      className='carousel slide'
+      className='carousel slide carouselPhotos'
       data-bs-ride='carousel'
     >
       <ol className='carousel-indicators'>

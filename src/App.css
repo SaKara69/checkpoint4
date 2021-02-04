@@ -3,14 +3,11 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Cormorant Garamond', serif;
-  font-size: 20px;
-  font-weight: 600;
-  color: black;
 }
 
 .welcome {
-  background-color: gray;
+  background-color: rgb(238, 237, 237);
   width: 100%;
-  height: auto;
+  height: 1500px;
   position: relative;
 }

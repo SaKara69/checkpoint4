@@ -1,3 +1,5 @@
+import '../styles/Testimonials.css';
+
 export default function Testimonials() {
-  return <div>Element Témoignages</div>;
+  return <div className='testimony'>Element Témoignages</div>;
 }

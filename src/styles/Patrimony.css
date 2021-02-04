@@ -1,3 +1,15 @@
-body {
-  color: white;
+.patrominyContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 100px auto;
+}
+.titleObject {
+  font-size: 35px;
+  font-weight: bold;
+}
+.textObject {
+  font-size: 25px;
+  font-weight: normal;
 }

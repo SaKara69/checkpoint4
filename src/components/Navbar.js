@@ -22,7 +22,7 @@ export default function Navbar() {
         </button>
         <div className='collapse navbar-collapse' id='navbarNavAltMarkup'>
           <ul className='navbar-nav'>
-            <li className='nav-link active' aria-current='page'>
+            <li className='nav-link active navLink' aria-current='page'>
               <Link to='/cour_du_roi'>Cour du Roi</Link>
             </li>
             <li className='nav-link'>
