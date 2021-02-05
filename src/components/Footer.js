@@ -5,9 +5,6 @@ const Footer = () => {
   return (
     <footer className='footer'>
       <div className='titleLinks'>
-        <Link to='/Evenements' className='links'>
-          Evénements
-        </Link>
         <Link to='/Contact' className='links'>
           Contact
         </Link>
@@ -25,6 +22,9 @@ const Footer = () => {
         >
           Recrutement
         </a>
+        <Link to='/login' className='links'>
+          Administrateur
+        </Link>
       </div>
       <p className='myName'>Création du site: Sabrina KARAKOG</p>
     </footer>

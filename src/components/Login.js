@@ -1,46 +1,33 @@
 import React, { useState } from 'react';
 import '../styles/Login.css';
 
-export default function Login() {
+export default function Contact() {
+  const [name, setName] = useState('');
   const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
-
-  const [loader, setLoader] = useState(false);
+  const [message, setMessage] = useState('');
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setLoader(true);
-
+    setName('');
     setEmail('');
-    setPassword('');
+    setMessage('');
   };
 
   return (
-    <div className='loginForm container'>
-      <form onSubmit={handleSubmit} className='formConnexion'>
-        <label htmlFor='email' className='labels'>
-          Email
-        </label>
+    <div className='container loginPage'>
+      <form className='formZone' onSubmit={handleSubmit}>
+        <h3 className='subtitleAdmin'>Espace Administrateur</h3>
+
+        <label className='labelLog'>Email</label>
         <input
-          type='email'
-          placeholder='jean.doe@email.com'
-          className='inputs'
+          className='inputLog'
+          placeholder='jean.peuplus@email.com'
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         />
 
-        <label htmlFor='password' className='labels'>
-          Mot de passe
-        </label>
-        <input
-          type='password'
-          className='inputs'
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-        />
-
-        <button type='submit' className='btnConnect'>
-          Connection
+        <button className='btnLog' type='submit'>
+          Connexion
         </button>
       </form>
     </div>

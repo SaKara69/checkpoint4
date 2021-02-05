@@ -3,17 +3,24 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  width: 100%;
+  height: auto;
+  background-color: rgb(238, 237, 237);
 }
 .titleLine {
   display: flex;
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 100px auto;
-  padding: 15px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 100px 15px;
+  background: url('../pictures/homeCastle.jpg') no-repeat fixed center / cover;
 }
 .title {
   font-family: 'Great Vibes', cursive;
-  font-size: 9rem;
+  color: rgb(255, 252, 240);
+  font-size: 8rem;
   margin-right: 30px;
 }

@@ -1,7 +1,8 @@
 import crown from '../pictures/couronne.jpg';
 import '../styles/Patrimony.css';
 
-export default function Patrimony() {
+const Patrimony = (props) => {
+  const { patrimonial } = props;
   return (
     <div className='patrominyContainer'>
       <h3>Patrimoine du château</h3>
@@ -17,4 +18,5 @@ export default function Patrimony() {
       </div>
     </div>
   );
-}
+};
+export default Patrimony;
